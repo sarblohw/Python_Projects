@@ -34,8 +34,7 @@ def play_game():
             ):
                 print(f"{turn} WINS!")
                 break
-            else:
-                print("It's a tie!")
+
         else:
             turn = 'O'
             user_in = input(f"You are {turn}. Select position from 1 - 9: ")
@@ -55,8 +54,6 @@ def play_game():
             ):
                 print(f"{turn} WINS!")
                 break
-            else:
-                print("It's a tie!")
-
+    print("It's a TIE!")
 
 play_game()
